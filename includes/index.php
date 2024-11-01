@@ -1,0 +1,1 @@
+<!-- golden is silence -->

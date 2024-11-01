@@ -1,0 +1,60 @@
+.ufae-control {
+  border: 1px solid var(--e-a-border-color-bold);
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.ufae-control .ufae-settings {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  white-space: nowrap;
+}
+
+.ufae-control .ufae-settings div {
+  margin-left: auto;
+}
+
+.ufae-control .ufae-control-message {
+  background-color: var(--e-a-color-danger);
+  background-color: #dc2626;
+  padding: .5rem;
+  border: 1px solid var(--e-a-color-danger);
+  margin-top: .8rem;
+  border-radius: 5px;
+  font-size: 13px;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+
+.ufae-tabs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.ufae-tabs .ufae-tab {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  -webkit-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
+  border: var(--e-a-border-bold);
+  padding: .5rem;
+  width: 100%;
+  text-align: center;
+  border-radius: 0px;
+}
+
+.ufae-tabs .ufae-tab:hover {
+  background-color: var(--e-a-bg-active-bold);
+}
+
+.ufae-tabs .ufae-tab.ufae-tab-active {
+  background-color: var(--e-a-bg-active-bold);
+}
+/*# sourceMappingURL=ufae-control.css.map */
